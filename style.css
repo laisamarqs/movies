@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 :root {
-  --primary-color: black;
-  --secondary-color: black;
+  --primary-color: #2d3436;
+  --secondary-color: #2d3436;
 }
 
 * {
@@ -24,16 +24,11 @@ body {
 header {
   display: flex;
   align-items: center;
+  justify-content: space-between; 
   padding: 10px;
-  background-color: black; 
+  background-color: black;
 }
 
-.title {
-  flex-grow: 1; 
-  text-align: center;
-  margin: 0;
-  color: #eee;
-}
 
 
 .search {
@@ -44,6 +39,7 @@ header {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   color: #fff;
+  margin-left: auto;
 }
 
 .search::placeholder {
@@ -123,4 +119,15 @@ main {
 
 .movie:hover .overview {
   transform: translateY(0);
+}
+
+footer {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 100px; 
+  height: auto; 
 }
